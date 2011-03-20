@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />	
+	<title>Submit a Trouble Ticket</title>	
+	<link rel="stylesheet" href="public/css/html5forms.layout.css">
+
+	
+</head>
+<body>
+	
+	<h1>
+		Support Ticket System
+		<span>for <a href="http://c2routeapp.com">C2RouteApp</a>, from <a href="http://c2logix.com/">C2Logix.</a></span>
+	</h1>
+	
+	<form>		
+		<p><label for="category">Support Categories</label>
+		<select id="category" required>
+			<option value="1">Select type of issue....</option>
+			<option value="2">Data related</option>
+			<option value="3">Reports</option>
+			<option value="4">Mapping</option>
+			<option value="5">Routing</option>
+			<option value="6">Parameters</option>
+		</select></p>
+	
+	<p><label for="email-field">Email: </label>
+		<input type="email" id="email-field" name="email-field" required></p>
+
+	<p><label for="username">Username</label>
+		<input type="text" name="username" id="username" required></p>
+	
+	<p><label for="newissue">Issue</label>
+		<textarea id="newissue" placeholder="Describe your issue...."></textarea></p>
+	
+
+
+<br />		
+		
+		<button type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+			<span class="ui-button-text">Submit Ticket</span>
+		</button>
+		<div class="clearfix"></div>
+	</form>
+	
+	<footer>
+			<p class="author">
+			C2RouteApp Support <a href="mailto:support@c2logix.com">Email Support</a>
+		</p>
+	</footer>
+	
+</body>
+</html>
